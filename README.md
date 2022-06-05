@@ -4,14 +4,13 @@ Labview projem için ortamdaki ışığın şiddetini algılayan ve bu şiddete 
 
 ## Kullanılan malzemeler
 
-* Arduino UNO
-* LDR
-* POT
-* LED
+-   Arduino UNO
+-   LDR
+-   POT
+-   LED
 
 ## Devre
 
 Devre basit bir gerilim bölücü devresi. POT ile ledin ışık şiddetini ayarlayabiliyorum.
 
-image: ![](F:\workspace\olcmeodev\devre.jph)
-
+image: ![](/devre.jpg)
