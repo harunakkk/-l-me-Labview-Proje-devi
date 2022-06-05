@@ -30,10 +30,10 @@ LDR'nin önüne koyduğum LED açıkken
 ***
 Lamba kapalıyken
 ![](/labview_3.jpg)
-##Labview Blok Diyagramı
+## Labview Blok Diyagramı
 -   COM4 yazan string arduinonun bağlandığı seri portun ismi olmalıdır
 ![](/labview_blok_diyagram.png)
-##Arduino Programın Kodu
+## Arduino Programın Kodu
 ```{r}
 int analogPin = A1;
 int val = 0;
@@ -47,6 +47,6 @@ void loop() {
   delay(1000);
 }
 ```
-##Ad - Soyad - Numara
+## Ad - Soyad - Numara
 Şafak Harun AKKAYA
 170519011
