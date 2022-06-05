@@ -9,13 +9,23 @@ Labview projem için ortamdaki ışığın şiddetini algılayan ve bu şiddete 
 -   POT
 -   LED
 
-## Devre
+## Uygulamanın İşleyişi
 
 Devre basit bir gerilim bölücü devresi. POT ile ledin ışık şiddetini ayarlayabiliyorum.
-***
 ![](/devre.jpg)
 ***
 Odamdaki lamba açıkken ve LDR'ye düşen ışığı herhangi bir şekilde engellemezken bilgisayarda seri port üzerinden print ettiğimde böyle bir çıkış alıyorum
-***
 ![](/cikis.jpg)
 ***
+Lambayı kapattığımda ise çıkışta aldığım değerler *300 - 400* aralığından *900 - 1000* aralığına artıyor
+![](/cikis2.jpg)
+***
+Bu değerleri labviewdeki VISA seri port giriş elemanı ile direk okuyarak labview üzerinde yaptığım diyagram ile odanın aydınlık düzeyini gösterebiliyorum.
+Odanın lambası açıkken
+![](/labview_1.jpg)
+***
+LDR'nin önüne koyduğum LED açıkken
+![](/labview_2.jpg)
+***
+Lamba kapalıyken
+![](/labview_3.jpg)
