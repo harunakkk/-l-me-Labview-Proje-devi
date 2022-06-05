@@ -13,4 +13,4 @@ Labview projem için ortamdaki ışığın şiddetini algılayan ve bu şiddete 
 
 Devre basit bir gerilim bölücü devresi. POT ile ledin ışık şiddetini ayarlayabiliyorum.
 
-![640x360](/devre.jpg)
+![200x100](/devre.jpg)
