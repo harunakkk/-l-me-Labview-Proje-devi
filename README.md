@@ -1,6 +1,6 @@
-# Odevin Konusu
+# Ödevin Konusu
 
-Labview projem için ortamdaki ışığın şiddetini algilayan ve bu şiddete göre ortamin aydinlik derecesini 4 kademeli bir şekilde gösteren bir sensör yapmayı tercih ettim.
+Labview projem için ortamdaki ışığın şiddetini algılayan ve bu şiddete göre ortamın aydınlık derecesini 4 kademeli bir şekilde gösteren bir sensör yapmayı tercih ettim.
 
 ## Kullanılan malzemeler
 
@@ -12,4 +12,6 @@ Labview projem için ortamdaki ışığın şiddetini algilayan ve bu şiddete g
 ## Devre
 
 Devre basit bir gerilim bölücü devresi. POT ile ledin ışık şiddetini ayarlayabiliyorum.
+
+image: ![](F:\workspace\olcmeodev\devre.jph)
 
