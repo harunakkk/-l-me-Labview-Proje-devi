@@ -21,6 +21,7 @@ Lambayı kapattığımda ise çıkışta aldığım değerler *300 - 400* aralı
 ![](/cikis2.jpg)
 ***
 Bu değerleri labviewdeki VISA seri port giriş elemanı ile direk okuyarak labview üzerinde yaptığım diyagram ile odanın aydınlık düzeyini gösterebiliyorum.
+
 Odanın lambası açıkken
 ![](/labview_1.jpg)
 ***
@@ -29,3 +30,23 @@ LDR'nin önüne koyduğum LED açıkken
 ***
 Lamba kapalıyken
 ![](/labview_3.jpg)
+##Labview Blok Diyagramı
+-   COM4 yazan string arduinonun bağlandığı seri portun ismi olmalıdır
+![](/labview_blok_diyagram.png)
+##Arduino Programın Kodu
+```{r}
+int analogPin = A1;
+int val = 0;
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  val = analogRead(analogPin);
+  Serial.println(val);
+  delay(1000);
+}
+```
+##Ad - Soyad - Numara
+Şafak Harun AKKAYA
+170519011
